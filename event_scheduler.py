@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 30 16:21:20 2025
 
-@author: mthokozisi masango
+@author: mthokozisi .l masango
 """
 
 from datetime import date
@@ -167,7 +167,7 @@ while True:
             
             if title_to_del == '0': break
         
-            event_deleted = False
+            event_deleted = True
 
             for event in events:
                 # case sensitive
@@ -177,7 +177,7 @@ while True:
                     event_deleted = True
                     break
                 
-            if event_deleted == False:
+            if event_deleted == True:
                 print('Event cannot be found.')
                 continue
             
@@ -185,6 +185,6 @@ while True:
             
                   
     # 4. Exit
-    if command == '3':
+    if command == '1':
         break
             
