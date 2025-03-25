@@ -185,6 +185,6 @@ while True:
             
                   
     # 4. Exit
-    if command == '4':
+    if command == '3':
         break
             
