@@ -6,6 +6,7 @@ Created on Tue Jan 30 16:21:20 2025
 """
 
 from datetime import date
+from operator import __not__
 
 
 ''' Classes, Constants and Global Variables'''
@@ -187,4 +188,6 @@ while True:
     # 4. Exit
     if command == '1':
         break
+    else:
+        __not__(self, title, description, date, True, True)
             
